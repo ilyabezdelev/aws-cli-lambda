@@ -10,7 +10,7 @@ export VIRTUAL_ENV_DIR="awscli-virtualenv"
 # Temporary directory for AWS CLI and its dependencies
 export LAMBDA_LAYER_DIR="awscli-lambda-layer"
 
-# The zip file that will contain the 
+# The zip file that will contain the layer
 export ZIP_FILE_NAME="awscli-lambda-layer.zip"
 
 # Creates a directory for virtual environment
