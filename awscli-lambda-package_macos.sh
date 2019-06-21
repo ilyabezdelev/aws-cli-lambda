@@ -17,7 +17,7 @@ export ZIP_FILE_NAME="awscli-lambda-layer.zip"
 mkdir ${VIRTUAL_ENV_DIR}
 
 # Initializes a virtual environment in the virtual environment directory
-virtualenv ${VIRTUAL_ENV_DIR}
+virtualenv -p python3 ${VIRTUAL_ENV_DIR}
 
 # Changes current dir to the virtual env directory
 cd ${VIRTUAL_ENV_DIR}/bin/
