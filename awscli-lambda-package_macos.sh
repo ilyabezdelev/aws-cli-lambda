@@ -46,7 +46,7 @@ cd ${LAMBDA_LAYER_DIR}
 
 # Copies aws and its dependencies to the temp directory
 cp ../${VIRTUAL_ENV_DIR}/bin/aws .
-cp -r ../${VIRTUAL_ENV_DIR}/lib/python${PYTHON_VERSION}/site-packages/ .
+cp -r ../${VIRTUAL_ENV_DIR}/lib/python*/site-packages/ .
 
 # Zips the contents of the temporary directory
 zip -r ../${ZIP_FILE_NAME} *
